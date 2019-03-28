@@ -69,9 +69,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Test Gravity!"/>
                                 <connections>
-                                    <segue destination="1u7-Mo-Agm" kind="popoverPresentation" identifier="noGravity" popoverAnchorView="wtf-xI-VD1" id="hbZ-95-lDB">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
+                                    <action selector="testGravity:" destination="DP1-EL-kZF" eventType="touchUpInside" id="XoP-wv-k74"/>
+                                    <segue destination="e7f-qg-8zP" kind="presentation" id="WEq-Ld-oLU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oma-mz-8b0">
@@ -79,9 +78,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Resist the Urge to test Gravity!"/>
                                 <connections>
-                                    <segue destination="e7f-qg-8zP" kind="popoverPresentation" identifier="yesGravity" popoverAnchorView="Oma-mz-8b0" id="02r-G2-Q0J">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
+                                    <segue destination="1u7-Mo-Agm" kind="presentation" id="2mt-4f-vSw"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VMn-cY-Q40">
@@ -159,6 +156,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Bad Kitty"/>
                                 <connections>
+                                    <action selector="badKitty:" destination="E9n-OQ-rPx" eventType="touchUpInside" id="z1a-ak-Gbn"/>
                                     <segue destination="BYZ-38-t0r" kind="popoverPresentation" identifier="badKitty" popoverAnchorView="G6r-Bp-26E" id="inW-o9-2gM">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
@@ -194,6 +192,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Normal Kitty"/>
                                 <connections>
+                                    <action selector="normaKitty:" destination="En3-3T-RR8" eventType="touchUpInside" id="7ef-sZ-WqN"/>
                                     <segue destination="BYZ-38-t0r" kind="popoverPresentation" identifier="normalKitty" popoverAnchorView="zOI-fF-2Y9" id="9zF-W4-Dwp">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
@@ -274,6 +273,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sigh. Good Kitty."/>
                                 <connections>
+                                    <action selector="goodKitty:" destination="3WH-mL-sTr" eventType="touchUpInside" id="DXn-sU-bJ4"/>
                                     <segue destination="BYZ-38-t0r" kind="popoverPresentation" identifier="goodKitty" popoverAnchorView="Uk5-VQ-q6Z" id="Eli-FN-hwb">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>

@@ -12,6 +12,8 @@
 		6C3FB58D224C25FB00DEDAF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C3FB58B224C25FB00DEDAF3 /* Main.storyboard */; };
 		6C3FB58F224C25FC00DEDAF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C3FB58E224C25FC00DEDAF3 /* Assets.xcassets */; };
 		6C3FB592224C25FC00DEDAF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C3FB590224C25FC00DEDAF3 /* LaunchScreen.storyboard */; };
+		6C9377E1224D77730048DB1F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9377E0224D77730048DB1F /* AVFoundation.framework */; };
+		6C9377E3224D78360048DB1F /* glassBreak.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C9377E2224D78360048DB1F /* glassBreak.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		6C3FB58E224C25FC00DEDAF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C3FB591224C25FC00DEDAF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C3FB593224C25FC00DEDAF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C9377E0224D77730048DB1F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6C9377E2224D78360048DB1F /* glassBreak.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = glassBreak.mp3; path = ../../../../Downloads/glassBreak.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C9377E1224D77730048DB1F /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 			children = (
 				6C3FB586224C25FB00DEDAF3 /* GoodCatBadCat */,
 				6C3FB585224C25FB00DEDAF3 /* Products */,
+				6C9377DF224D77730048DB1F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +66,17 @@
 				6C3FB58E224C25FC00DEDAF3 /* Assets.xcassets */,
 				6C3FB590224C25FC00DEDAF3 /* LaunchScreen.storyboard */,
 				6C3FB593224C25FC00DEDAF3 /* Info.plist */,
+				6C9377E2224D78360048DB1F /* glassBreak.mp3 */,
 			);
 			path = GoodCatBadCat;
+			sourceTree = "<group>";
+		};
+		6C9377DF224D77730048DB1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C9377E0224D77730048DB1F /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +140,7 @@
 				6C3FB592224C25FC00DEDAF3 /* LaunchScreen.storyboard in Resources */,
 				6C3FB58F224C25FC00DEDAF3 /* Assets.xcassets in Resources */,
 				6C3FB58D224C25FB00DEDAF3 /* Main.storyboard in Resources */,
+				6C9377E3224D78360048DB1F /* glassBreak.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
